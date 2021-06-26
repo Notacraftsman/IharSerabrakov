@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<HTML> 
+<HEAD> 
+<META charset="utf-8"> 
+<TITLE>Адаптивное меню</TITLE> 
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;}
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f196;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;   } 
+    .dropbtn {
+        background-color: #b1b6b1;
+        color: rgba(0, 0, 0, 0);
+        padding: 16px;
+        font-size: 16px;
+        border: none;} 
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: #838383;}   
+</style>
+</HEAD> 
+
+<BODY> 
+    <!-- Получился какой-то стрём -->
+        <div class='dropdown'>
+        <button class="dropbtn">Понедельник</button>
+          <div class="dropdown-content">
+            <div>Завтрак</div>
+            <div>Обед</div>
+            <div>Ужин</div>
+          </div>
+        
+        <div class='dropdown'>
+        <button class="dropbtn">Вторник</button>
+          <div class="dropdown-content">
+            <div>Завтрак</div>
+            <div>Обед</div>
+            <div>Ужин</div>
+          </div>
+        <div class='dropdown'>
+        <button class="dropbtn">Среда</button>
+          <div class="dropdown-content">
+            <div>Завтрак</div>
+            <div>Обед</div>
+            <div>Ужин</div>
+          </div>
+        <div class='dropdown'>
+        <button class="dropbtn">Четверг</button>
+          <div class="dropdown-content">
+            <div>Завтрак</div>
+            <div>Обед</div>
+            <div>Ужин</div>
+          </div>  
+        <div class='dropdown'>
+        <button class="dropbtn">Пятница</button>
+          <div class="dropdown-content">
+            <div>Завтрак</div>
+            <div>Обед</div>
+            <div>Ужин</div>
+          </div>
+        <div class='dropdown'>
+        <button class="dropbtn">Суббота</button>
+          <div class="dropdown-content">
+            <div>Завтрак</div>
+            <div>Обед</div>
+            <div>Ужин</div>
+          </div>        
+    
+</BODY> 
+</HTML> 
